@@ -1,63 +1,96 @@
 body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
     color: #333;
 }
 
 header {
-    background-color: #4a90e2;
+    background-color: #4A90E2;
     color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+header .btn {
+    background-color: #fff;
+    color: #4A90E2;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
     padding: 20px 0;
 }
 
-nav .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links li {
-    display: inline;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.section {
-    padding: 60px 0;
-    background-color: #f4f4f4;
-}
-
-.section h2 {
-    color: #4a90e2;
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4A90E2;
 }
 
 .about-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.about-image img {
+.about-content .profile-pic img {
     width: 200px;
     border-radius: 50%;
+    border: 5px solid #ddd;
 }
 
-.skills-content, .experience-item, .project-item {
-    background: #fff;
-    padding: 20px;
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-list .skill {
+    width: 45%;
+}
+
+.skills-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    padding: 5px 0;
+}
+
+.experience-item {
+    margin-bottom: 30px;
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    background-color: #f4f4f4;
+    padding: 10px;
     margin: 10px 0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
