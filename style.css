@@ -26,7 +26,7 @@ a {
 .section-frame {
     background-color: #fff;
     padding: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(5, 0, 0, 0.1);
     border-radius: 8px;
     border-left: 6px solid #eocfc5;
     margin-bottom: 40px;
@@ -91,7 +91,7 @@ nav ul li a {
 }
 
 .profile-pic img {
-    width: 250px;
+    width: 300px;
     height: 350px;
     border-radius: 50%;
     border: 5px solid #ddd;
@@ -120,6 +120,10 @@ nav ul li a {
 .project-list {
     list-style-type: none;
     padding: 0;
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #4A90E2;
 }
 
 .project-list li {
@@ -128,7 +132,12 @@ nav ul li a {
     margin: 10px 0;
     border-left: 4px solid #4A90E2;
 }
-
+.achievement-list {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #4A90E2;
+}
 /* Contact Section */
 .contact-info p {
     font-size: 1.2em;
