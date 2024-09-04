@@ -24,12 +24,14 @@ a {
 }
 
 .section-frame {
-    background-color: #fff;
-    padding: 40px;
     box-shadow: 0 4px 8px rgba(5, 0, 0, 0.1);
     border-radius: 8px;
-    border-left: 6px solid #eocfc5;
     margin-bottom: 40px;
+
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #4A90E2;
 }
 
 h2 {
@@ -122,15 +124,9 @@ nav ul li a {
 }
 
 .project-list li {
-    background-color: #f4f4f4;
-    padding: 15px;
-    margin: 10px 0;
-    border-left: 4px solid #4A90E2;
-}
-.achievement-list li{
-    background-color: #f4f4f4;
-    padding: 15px;
-    margin: 10px 0;
+    background-color: #f4f400;
+    padding: 10px;
+    margin: 5px 0;
     border-left: 4px solid #4A90E2;
 }
 /* Contact Section */
