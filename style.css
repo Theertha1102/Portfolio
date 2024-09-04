@@ -119,10 +119,6 @@ nav ul li a {
 }
 .project-list {
     list-style-type: none;
-    background-color: #f4f4f4;
-    padding: 15px;
-    margin: 10px 0;
-    border-left: 4px solid #4A90E2;
 }
 
 .project-list li {
@@ -131,7 +127,7 @@ nav ul li a {
     margin: 10px 0;
     border-left: 4px solid #4A90E2;
 }
-.achievement-list {
+.achievement-list li{
     background-color: #f4f4f4;
     padding: 15px;
     margin: 10px 0;
